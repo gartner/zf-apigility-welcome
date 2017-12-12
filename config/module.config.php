@@ -24,7 +24,7 @@ return array(
                 ),
                 'child_routes' => array(
                     'welcome' => array(
-                        'type' => 'Zend\Mvc\Router\Http\Literal',
+                        'type' => 'Literal',
                         'options' => array(
                             'route'    => '/welcome',
                             'defaults' => array(
